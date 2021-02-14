@@ -1,0 +1,48 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			* {
+				text-align: center;
+				background-color: black;
+			}
+			.contenedor {
+				width: 100%;
+				position: absolute;
+			}
+			.pdf {
+				position: relative;
+				text-align: center;
+			}
+			.bloqueo {
+				position: fixed;
+				background-color: rgba(6, 6, 6, 0);
+
+				height: 50px;
+				left: 259px;
+				top: 0px;
+				right: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="contenedor">
+			<div class="pdf">
+				<object
+					data="./file/Revista-Nadie-1a-Edicion-1.pdf#toolbar=0;"
+					type="application/PDF"
+					width="850"
+					height="850px"
+					align="center"
+				></object>
+			</div>
+
+			<div class="bloqueo"></div>
+		</div>
+	</body>
+</html>
